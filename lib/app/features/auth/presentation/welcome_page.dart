@@ -17,6 +17,7 @@ class _WelcomePageState extends State<WelcomePage> {
     return InkWell(
       onTap: () {
         Get.toNamed(Routes.LOGIN);
+        // Get.toNamed(Routes.HOME);
       },
       child: Container(
         width: MediaQuery.of(context).size.width,

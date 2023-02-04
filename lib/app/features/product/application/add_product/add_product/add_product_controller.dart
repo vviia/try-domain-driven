@@ -1,12 +1,12 @@
 import 'package:trying_to_not_crying/app/features/product/application/add_product/add_product/add_product_repo.dart';
-import 'package:trying_to_not_crying/features/product/application/add_product/add_color/add_color_state.dart';
+import 'package:trying_to_not_crying/app/features/product/application/add_product/add_color/add_color_state.dart';
 import 'package:trying_to_not_crying/app/features/product/application/add_product/add_product/add_product_events.dart';
 import 'package:trying_to_not_crying/app/features/product/application/add_product/add_product/add_product_state.dart';
 import 'package:trying_to_not_crying/app/features/product/application/add_product/add_product/add_product_view_contract.dart';
 import 'package:trying_to_not_crying/app/features/product/domain/entities/product_variant.dart';
 import 'package:trying_to_not_crying/app/features/product/domain/value_objects/product_name.dart';
 import 'package:trying_to_not_crying/app/features/product/domain/value_objects/product_price.dart';
-import 'package:etrying_to_not_crying/app/features/product/domain/value_objects/product_size.dart';
+import 'package:trying_to_not_crying/app/features/product/domain/value_objects/product_size.dart';
 import 'package:get/get.dart';
 
 class AddProductController extends GetxController implements AddProductEvents {

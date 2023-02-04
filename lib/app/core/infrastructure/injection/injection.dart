@@ -27,10 +27,10 @@ import 'package:trying_to_not_crying/app/core/application/routes/app_pages.dart'
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:ecommerce_crud_operation/app/features/auth/application/profile/profile_state.dart';
+import 'package:trying_to_not_crying/app/features/auth/application/profile/profile_state.dart';
 import 'package:get/get.dart';
-import 'package:ecommerce_crud_operation/app/features/auth/application/login/login_state.dart';
-import 'package:ecommerce_crud_operation/app/features/auth/domain/repository/auth_repo.dart';
+import 'package:trying_to_not_crying/app/features/auth/application/login/login_state.dart';
+import 'package:trying_to_not_crying/app/features/auth/domain/repository/auth_repo.dart';
 import 'package:get/get.dart';
 
 class Injection extends Bindings {

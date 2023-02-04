@@ -1,7 +1,7 @@
 import 'package:trying_to_not_crying/app/features/auth/application/register/register_state.dart';
 import 'package:trying_to_not_crying/app/features/auth/application/register/register_view_contract.dart';
 import 'package:trying_to_not_crying/app/features/auth/application/register/register_events.dart';
-import 'package:trying_to_not_crying/ommerce_crud_operation/app/features/auth/domain/repository/auth_repo.dart';
+import 'package:trying_to_not_crying/app/features/auth/domain/repository/auth_repo.dart';
 import 'package:trying_to_not_crying/app/features/auth/domain/value_objects/user_email.dart';
 import 'package:trying_to_not_crying/app/features/auth/domain/value_objects/user_full_name.dart';
 import 'package:trying_to_not_crying/app/features/auth/domain/value_objects/user_password.dart';
